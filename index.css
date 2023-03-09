@@ -1,0 +1,493 @@
+/************************************************************************
+markhardyio.css
+
+Stylesheet for markhardy.io portfolio site.
+
+Created by: Mark Hardy
+Last Updated: 1/3/2022
+*************************************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap");
+
+body {
+    font-family: "Yantramav", Calibri, sans-serif;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.0;
+}
+
+h3 {
+    font-size: 26px;
+    line-height: 1.0;
+}
+
+p {
+    font-size: 20px;
+}
+
+.menu-text {
+}
+
+.menu-text a {
+    color: rgb(207, 20, 44);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#header {
+    background-color: white;
+    border-bottom-color: rgb(207,20,44);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    display: flex;
+    font-family: "Yantramav", sans-serif;
+    font-weight: 100;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+#header-menu {
+    margin-left: 10%;
+    padding-right: 30px;
+    padding-top: 2px;
+    text-align: right;
+    width: 70%;
+}
+
+#header img {
+    margin-left: 0%;
+    height: 100%;
+    width: 20%;
+}
+
+#background {
+    background-image:
+    linear-gradient(to right, rgba(15, 26, 87, 0.32), rgba(117, 19, 93, 0)),
+    url('images/lea-speaking.webp');
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    display:flex;
+    height: 600px;
+    text-align: right;
+    width: 100%;
+}
+
+#hero-text {
+    color: white;
+    font-family: "Yantramav", sans-serif;
+    height: 120px;
+    margin-left: 40px;
+    margin-top: 13%;
+    opacity: 1;
+    padding-left: 1%;
+    padding-right: 1.5%;
+    text-align: center;
+    width: 40%;
+}
+
+#hero-text h1 {
+    background-color: rgb(207,20,44);
+    font-size: 125px;
+    line-height: 0.35;
+    margin-bottom: 0;
+}
+
+#hero-text h2 {
+    background-color: white;
+    color: rgb(207,20,44);
+    margin-bottom: 0;
+}
+
+#hero-text h3 {
+    background-color: white;
+    color: rgb(207,20,44);
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#donate {
+    background-color: rgb(1,22,137);
+    color: white;
+    margin: 0;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#donate-btns {
+    display: flex;
+}
+
+.donate-red {
+    background-color: rgb(207,20,44);
+    border: 1px white solid;
+    border-radius: 7px;
+    color: white;
+    font-size: 36px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 150px;
+}
+
+.donate-red:hover {
+    background-color: rgb(199, 134, 143);
+    background-color: white;
+    border: 1px rgb(207,20,44) solid;
+    color: rgb(207,20,44);
+}
+
+#video-container {
+    background-image: url("images/desert.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+#video-box {
+    background-color: rgba(255, 255, 255, 0.53);
+    height: 700px;
+    margin: auto;
+    width: 85%;
+}
+
+.video-frame {
+    height: 600px;
+    margin-left: 2.5%;
+    margin-top: 40px;
+    width: 95%;
+}
+
+#video-heading {
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.video-top {
+    border-radius: 5px;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 2%;
+    padding: 3px;
+    text-align: center;
+    width: 30%;
+}
+
+.red-bg {
+    background-color: rgb(207,20,44);
+}
+
+.white-bg {
+    background-color: white;
+    color: rgb(207,20,44);
+}
+
+.blue-bg {
+    background-color: rgb(1,22,137);
+}
+
+.white-text {
+    color: white;
+}
+
+#issues {
+    background-image:
+    linear-gradient(to bottom, rgba(117, 19, 93, 0.53), white),
+    url('images/az-corp-comm.webp');
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#issues-container {
+    background-color: rgba(255, 255, 255, 0.53);
+    display: flex;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 90%;
+}
+
+.issue {
+    background-color: white;
+    border: 1px rgb(207,20,44) solid;
+    border-radius: 8px;
+    margin: auto;
+    height: 170px;
+    padding: 20px;
+    text-align: center;
+    width: 170px;
+}
+
+.issue:hover {
+    background-color: rgb(207,20,44);
+    border: 1px white solid;
+}
+
+.icon {
+    height: 110px;
+    width: 110px;
+}
+
+#join {
+    background-color: rgb(207,20,44);
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#newsletter {
+    padding-bottom: 50px;
+}
+
+.signup {
+    border-radius: 5px;
+    font-size: 40px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40%;
+}
+
+#email {
+    width: 82.5%;
+}
+
+.subscribe {
+    background-color: rgb(1,22,137);
+    border: 1px white solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 32px;
+    height: 80px;
+    width: 83%;
+}
+
+.subscribe:hover {
+    background-color: white;
+    border: 1px rgb(1,22,137) solid;
+    color: rgb(1,22,137);
+}
+
+#footer {
+    background-color: rgb(1,22,137);
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#paid-for {
+    border: 1px white solid;
+    border-radius: 8px;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+}
+
+#results {
+    background-image:
+    linear-gradient(to bottom, rgba(117, 19, 93, 0.53), white),
+    url('images/lea-meeting.webp');
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 120px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#results-container {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+#results-box {
+    background-color: rgba(255, 255, 255, 0.53);
+    border: 1px rgb(207,20,44) solid;
+    border-radius: 15px;
+    color: rgb(1,22,137);
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: right;
+    width: 65%;
+}
+
+.result {
+    display: flex;
+    height: 33%;
+    vertical-align: middle;
+}
+
+.result p {
+    font-size: 32px;
+}
+
+.result img {
+    background-color: white;
+    border: 1px rgb(207,20,44) solid;
+    border-radius: 50%;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+@keyframes spin3D {
+    from { transform: rotateY(0deg) }
+    to { transform: rotateY(360deg) }
+}
+
+.spinhov3D:hover {
+    animation-name: spin3D;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: ease-in-out;
+}
+
+.animated-link {
+    color: black;
+    transition: color 1000ms;
+}
+
+.animated-link:hover {
+    color: red;
+}
+
+.sm-display {
+    visibility: hidden;
+}
+
+.lg-display {
+    visibility: visible;
+}
+
+.alert-text {
+    color: rgb(207,20,44);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    .midway {
+        padding: 0;
+    }
+
+    .grid-container {
+        grid-column-gap: 0px;
+        grid-template-columns: auto;
+        height: unset;
+        padding: 0;
+        margin: 0;
+    }
+
+    .grid-text {
+        display:unset;
+        height: unset;
+        margin: 0;
+        padding: 0;
+        opacity: 1;
+    }
+
+    .grid-text p {
+        font-size: 18px;
+        font-weight: 600;
+        position: unset;
+        text-align: center;
+    }
+
+    .grid-text img {
+        display: block;
+        margin: auto;
+    }
+
+    .sm-display {
+        visibility: visible;
+    }
+
+    .lg-display {
+        visibility: hidden;
+    }
+
+    #about {
+        display: unset;
+    }
+
+    #header img {
+        width: 100px;
+    }
+
+    #about-text {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-overflow: clip;
+        width: 80%;
+    }
+
+    #intro,
+    #portfolio {
+        height: unset;
+    }
+
+    #intro {
+        width: 100%;
+    }
+
+    #portfolio-bottom img {
+        padding-top: 100px;
+    }
+
+    .hvr-rectangle-in:hover:before,
+    .hvr-rectangle-in:focus:before,
+    .hvr-rectangle-in:active:before {
+        -webkit-transform: unset;
+        transform: unset;
+    }
+}
