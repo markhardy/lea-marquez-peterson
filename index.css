@@ -81,7 +81,7 @@ p {
     background-origin: initial;
     background-clip: initial;
     display: inline-block;
-    height: 600px;
+    height: fit-content;
     text-align: right;
     width: 100%;
 }
@@ -100,9 +100,10 @@ p {
 
 #hero-sub-text {
     color: white;
+    float: left;
     font-family: Calibri, sans-serif;
     font-weight: 100;
-    margin-top: 40px;
+    margin-top: 70px;
     padding: 10px;
     text-align: center;
 }
@@ -406,7 +407,7 @@ p {
 
 @media only screen and (max-width: 992px) {
     #background {
-        height: 700px;
+        height:fit-content;
     }
 
     #header-menu {
