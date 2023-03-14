@@ -80,7 +80,7 @@ p {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    display:flex;
+    display: inline-block;
     height: 600px;
     text-align: right;
     width: 100%;
@@ -104,6 +104,7 @@ p {
     font-weight: 100;
     margin-top: 40px;
     padding: 10px;
+    text-align: center;
 }
 
 #hero-text h1 {
@@ -404,6 +405,10 @@ p {
 }
 
 @media only screen and (max-width: 992px) {
+    #background {
+        height: 700px;
+    }
+
     #header-menu {
         visibility: hidden;
         width: 0;
@@ -419,13 +424,14 @@ p {
     }
 
     #hero-text {
-        margin-left: 0%;
-        width: 100%;
+        margin: auto;
+        margin-top: 5%;
+        width: 90%;
     }
 
     #hero-sub-text {
         margin: auto;
-        margin-top: 55%;
+        margin-top: 75%;
         padding: 0;
         width: 95%;
     }
