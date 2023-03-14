@@ -424,11 +424,11 @@ p {
     }
 
     #hero-text {
-        width: 400px;
+        width: 30%;
     }
 
     #hero-text h2 {
-        margin-top: 70%;
+        margin-top: 10%;
     }
 
     .donate-red {
@@ -447,12 +447,7 @@ p {
         width: 90%;
     }
 
-    #video-box {
-        height: 220px;
-    }
-
     .video-frame {
-        height: 200px;
         margin-top: 10px;
     }
 
