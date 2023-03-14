@@ -98,24 +98,19 @@ p {
     width: 40%;
 }
 
+#hero-sub-text {
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-weight: 100;
+    margin-top: 40px;
+    padding: 10px;
+}
+
 #hero-text h1 {
     background-color: rgb(207,20,44);
     font-size: 125px;
     line-height: 0.35;
     margin-bottom: 0;
-}
-
-#hero-text h2 {
-    background-color: white;
-    color: rgb(207,20,44);
-    margin-bottom: 0;
-}
-
-#hero-text h3 {
-    background-color: white;
-    color: rgb(207,20,44);
-    font-size: 20px;
-    margin-top: 0;
 }
 
 #donate {
@@ -424,11 +419,23 @@ p {
     }
 
     #hero-text {
-        width: 30%;
+        margin-left: 0%;
+        width: 100%;
     }
 
-    #hero-text h2 {
-        margin-top: 10%;
+    #hero-sub-text {
+        margin: auto;
+        margin-top: 55%;
+        padding: 0;
+        width: 95%;
+    }
+
+    #hero-sub-text h2 {
+        font-size: 24px;
+    }
+
+    #hero-sub-text h3 {
+        font-size: 18px;
     }
 
     .donate-red {
@@ -449,10 +456,6 @@ p {
 
     .video-frame {
         margin-top: 10px;
-    }
-
-    #video-container {
-        height: 450px;
     }
 
     #issues-container {
