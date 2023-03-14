@@ -408,7 +408,7 @@ p {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
     #header-menu {
         visibility: hidden;
         width: 0;
