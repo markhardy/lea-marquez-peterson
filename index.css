@@ -435,6 +435,10 @@ p {
         font-size: 110px;
     }
 
+    #hero-sub-text {
+        margin: auto;
+    }
+
     .donate-red {
         margin-bottom: 20px;
     }
