@@ -436,7 +436,9 @@ p {
     }
 
     #hero-sub-text {
-        margin: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
     }
 
     .donate-red {
