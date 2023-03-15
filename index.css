@@ -579,3 +579,9 @@ p {
         transform: unset;
     }
 }
+
+@media only screen and (max-width: 512px) {
+    #hero-text h1 {
+        font-size: 110px;
+    }
+}
