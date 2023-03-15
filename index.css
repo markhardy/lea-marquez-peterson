@@ -72,7 +72,7 @@ p {
 #background {
     background-image:
     linear-gradient(to right, rgba(15, 26, 87, 0.32), rgba(117, 19, 93, 0)),
-    url('images/lea-speaking.webp');
+    url('images/lea-speaking.png');
     background-position-x: center;
     background-position-y: center;
     background-size:cover;
@@ -82,6 +82,8 @@ p {
     background-clip: initial;
     display: inline-block;
     height: fit-content;
+    margin-top: 75px;
+    position:static;
     text-align: right;
     width: 100%;
 }
@@ -407,7 +409,7 @@ p {
 
 @media only screen and (max-width: 992px) {
     #background {
-        height:fit-content;
+        height: auto;
     }
 
     #header-menu {
@@ -426,8 +428,13 @@ p {
 
     #hero-text {
         margin: auto;
-        margin-top: 5%;
-        width: 90%;
+        margin-left: 0;
+        padding-top: 45%;
+        width: 55%;
+    }
+
+    #hero-text h1 {
+        font-size: 86px;
     }
 
     #hero-sub-text {
