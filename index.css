@@ -92,7 +92,7 @@ p {
     color: white;
     height: 120px;
     margin-left: 40px;
-    margin-top: 13%;
+    margin-top: 20%;
     opacity: 1;
     padding-left: 1%;
     padding-right: 1.5%;
@@ -105,8 +105,6 @@ p {
     float: left;
     font-family: Calibri, sans-serif;
     font-weight: 100;
-    margin-top: 70px;
-    padding: 10px;
     text-align: center;
 }
 
@@ -428,28 +426,13 @@ p {
 
     #hero-text {
         margin: auto;
-        margin-left: 0;
         padding-top: 45%;
-        width: 55%;
+        text-align: center;
+        width: 70%;
     }
 
     #hero-text h1 {
-        font-size: 86px;
-    }
-
-    #hero-sub-text {
-        margin: auto;
-        margin-top: 75%;
-        padding: 0;
-        width: 95%;
-    }
-
-    #hero-sub-text h2 {
-        font-size: 24px;
-    }
-
-    #hero-sub-text h3 {
-        font-size: 18px;
+        font-size: 110px;
     }
 
     .donate-red {
@@ -577,11 +560,5 @@ p {
     .hvr-rectangle-in:active:before {
         -webkit-transform: unset;
         transform: unset;
-    }
-}
-
-@media only screen and (max-width: 512px) {
-    #hero-text h1 {
-        font-size: 110px;
     }
 }
