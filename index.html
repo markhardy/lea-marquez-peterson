@@ -1,51 +1,64 @@
 <!--************************************************************************
 index.html
 
-Home page for lea Marquez-Peterson's Campaign Site
+Home page for lea Marquez Peterson's Campaign Site
 
 Created by: Mark Hardy
-Last Updated: 03/14/2023
+Last Updated: 05/07/2023
 *************************************************************************-->
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-		<script type="text/javascript" src="markhardyio.js"></script>
-		<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="index.css">
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Yantramanav:wght@500&display=swap" rel="stylesheet">
-		<title>Retain Lea Marquez-Peterson - Corporation Commissioner</title>
         <link rel="icon" type="image/x-icon" href="favicons/favicon.ico">
+        <title>Retain Lea M&aacuterquez Peterson - Corporation Commissioner</title>
 	</head>
 	<body>
 		<section id="header">
             <img id="logo" src="images/Marquez-Peterson-Logo.jpg" alt="Lea Marquez-Peterson Logo" />
             <div id="header-menu">
                 <p class="menu-text">
-                    <a href="#hero-text">
+                    <a href="index.html">
                         HOME
                     </a>
-                    <a href="#donate">
+                    <a href="index.html#donate">
                         DONATE
                     </a>
-                    <a href="#video-container">
+                    <a href="bio.html">
                         LEA
                     </a>
-                    <a href="#issues">
+                    <a href="index.html#issues">
                         ISSUES
                     </a>
-                    <a href="#results">
+                    <a href="index.html#results">
                         RESULTS
                     </a>
-                    <a href="#join">
-                        JOIN US
+                    <a href="index.html#join">
+                        JOIN LEA
                     </a>
                 </p>
             </div>
+        </section>
+        <section id="petition-top">
+            <div id="petition-text">
+                <a href="#">
+                    <h5>
+                        GET LEA ON THE BALLOT
+                    </h5>
+                    <h3 class="underline">
+                        SIGN LEA'S NOMINATING PETITION
+                    </h3>
+                </a>
+            
+            
+            <button id="close-petition" onclick="exit()">
+                x
+            </button>
+            </div>
+        
         </section>
 
         <section id="background">
@@ -54,12 +67,74 @@ Last Updated: 03/14/2023
             </div>
             <div id="hero-sub-text">
                 <h2>
-                    LEA MARQUEZ-PETERSON
+                    LEA M&AacuteRQUEZ PETERSON
                     <br>
                         &#9734; 
                     <br>
                     ARIZONA CORPORATION COMMISSIONER
                 </h2>
+            </div>
+        </section>
+               
+
+        <section id="bio">
+            <div class="mobile-flex" id="bio-box">
+                <div class="bio-section-left">
+                    <h1 class="bio-heading">
+                        Meet Lea <br>M&aacuterquez Peterson
+                    </h1>
+                    <p class="bold">
+                        Lea is a successful entrepreneur and job creator who also helped 
+                        thousands of small businesses grow while serving as
+                        President and CEO of the Tucson Hispanic Chamber of Commerce.
+                    </p>
+                    <p>
+                        On the Corporation Commission, she has fought to keep our utility 
+                        rates affordable, secured $40 million in refunds for ratepayers and 
+                        supported Arizona's voluntary renewable energy goals.
+                    </p>
+                </div>
+                <div class="bio-section-right">
+                    <img src="images/family.jpg" alt="Lea and her family" id="bio-img">
+                    <button id="bio-btn">
+                        READ MORE
+                    </button>
+                </div>
+            </div>            
+        </section>
+
+        <section id="petition">
+            <div class="mobile-flex">
+                <img id="petition-img" src="images/lea-petition.jpeg" class="icon"/>
+                <div id="petition-heading">
+                    <h1>
+                        PUT LEA ON THE BALLOT
+                    </h1>
+                    <h2>
+                        SIGN LEA'S NOMINATING PETITION TO ENSURE LEA APPEARS ON THE BALLOT
+                    </h2>
+                </div>
+            </div>
+            <button class="petition-btn">
+                SIGN NOW
+            </button>
+        </section>
+        
+        <section id="video-container">
+            <div id="video-heading">
+                <div class="video-top red-bg">
+                    AFFORDABLE RATES
+                </div>
+                <div class="video-top white-bg">
+                    $40+M IN REFUNDS
+                </div>
+                <div class="video-top blue-bg">
+                    NO SUMMER SHUTOFFS
+                </div>
+            </div>
+            <div id="video-box">
+                <iframe class="video-frame" src="https://www.youtube.com/embed/D6Q0kSRagmo">
+                </iframe>
             </div>
         </section>
 
@@ -83,24 +158,6 @@ Last Updated: 03/14/2023
             </div>
         </section>
 
-        <section id="video-container">
-            <div id="video-heading">
-                <div class="video-top red-bg">
-                    AFFORDABLE RATES
-                </div>
-                <div class="video-top white-bg">
-                    $40+M IN REFUNDS
-                </div>
-                <div class="video-top blue-bg">
-                    NO SUMMER SHUTOFFS
-                </div>
-            </div>
-            <div id="video-box">
-                <iframe class="video-frame" src="https://www.youtube.com/embed/D6Q0kSRagmo">
-                </iframe>
-            </div>
-        </section>
-
         <section id="issues">
             <h1 class="white-text">
                 LEA ON THE ISSUES
@@ -119,9 +176,9 @@ Last Updated: 03/14/2023
                     </h4>
                 </div>
                 <div class="issue spinhov3D">
-                    <img src="images/business.png" class="icon"/>
+                    <img src="images/light-bulb.png" class="icon"/>
                     <h4>
-                        Supporting Small Business
+                        Ensuring Reliable Energy
                     </h4>
                 </div>
             </div>
@@ -136,8 +193,8 @@ Last Updated: 03/14/2023
                     <div class="result">
                         <img src="images/bolt.png" alt="Renewable Energy" class="icon spinhov3D" />
                         <p>
-                            Lea is keeping <span class="alert-text">your utility rates affordable</span> while growing Arizona's
-                            renewable energy portfolio.
+                            Lea is keeping <span class="alert-text">your utility rates affordable</span> while
+                            supporting our state's voluntary energy goals.
                         </p>
                     </div>
                     <div class="result">
@@ -173,9 +230,14 @@ Last Updated: 03/14/2023
         <section id="footer">
             <div id="paid-for">
                 <h3>
-                    Paid for and Authorized by Vote for Lea Marquez-Peterson
+                    Paid for and Authorized by Vote for Lea M&agraverquez Peterson
                 </h3>
             </div>
         </section>
-	</body>
+        <script>
+            function exit() {
+                document.getElementById("petition-top").classList += "hidden";
+            }
+        </script>
+    </body>
 </html>
