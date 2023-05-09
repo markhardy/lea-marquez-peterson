@@ -489,7 +489,7 @@ p {
 
 .result {
     display: flex;
-    height: 33%;
+    height: 25%;
     vertical-align: middle;
 }
 
@@ -556,7 +556,7 @@ p {
     body {
         overflow-x: hidden;
     }
-    
+
     h3 {
         font-size: 16px;
     }
