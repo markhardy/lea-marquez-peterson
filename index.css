@@ -13,6 +13,7 @@ body {
     font-family: "Yantramanav", Calibri, sans-serif;
     line-height: 1.5;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -91,13 +92,11 @@ p {
 #hero-text {
     color: white;
     height: 120px;
-    margin-left: 40px;
     margin-top: 20%;
     opacity: 1;
-    padding-left: 1%;
     padding-right: 1.5%;
     text-align: center;
-    width: 40%;
+    width: 55%;
 }
 
 #hero-sub-text {
@@ -212,7 +211,23 @@ p {
     width: 50%;
 }
 
+#family-photos {
+    display: flex;
+    height: 500px;
+    text-align: center;
+    width: 100%;
+}
+
+#family-photos > img {
+    padding: 20px;
+}
+
+#bio-heading {
+    text-align: center;
+}
+
 #bio-img {
+    border: 10px solid rgb(118, 60, 12);
     margin-top: 50%;
     position: relative;
     width: 100%;
@@ -348,6 +363,29 @@ p {
 
 .white-text {
     color: white;
+}
+
+#social-media {
+    display: flex;
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.social-container {
+    height: 200px;
+    width: 200px;
+}
+
+.social {
+    height: 75px;
+    width: 75px;
+}
+
+.social:hover {
+    height: 100px;
+    width: 100px;
 }
 
 #issues {
@@ -557,12 +595,27 @@ p {
         overflow-x: hidden;
     }
 
-    h3 {
+    #hero-text {
+        height: 300px;
+        width: 500px;
+    }
+
+    .petition-h3 {
         font-size: 16px;
     }
 
-    h5 {
+    .petition-h5 {
         font-size: 10px;
+    }
+
+    #family-photos {
+        display: block;
+        height: auto;
+    }
+
+    #family-photos > img {
+        height: 250px;
+        width: 200px;
     }
 
     #background {
@@ -589,13 +642,13 @@ p {
 
     #hero-text {
         margin: auto;
-        padding-top: 45%;
+        padding-top: 5%;
         text-align: center;
-        width: 70%;
+        width: 100%;
     }
 
     #hero-text h1 {
-        font-size: 110px;
+        font-size: 80px;
     }
 
     #hero-sub-text {
@@ -606,6 +659,11 @@ p {
 
     .donate-red {
         margin-bottom: 20px;
+    }
+
+    #social-media {
+        margin-left: 5%;
+        width: 100%;
     }
 
     #video-box {
