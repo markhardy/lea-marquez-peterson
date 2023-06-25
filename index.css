@@ -752,6 +752,7 @@ p {
 @media only screen and (max-width: 992px) {
     body {
         overflow-x: hidden;
+        width: 100%;
     }
 
     #donation-btns {
@@ -793,9 +794,11 @@ p {
         height: 100vh;
     }
 
-    #bio,
+    #bio {
+        height: 90vh;
+    }
     #petition {
-        height: 150vh;
+        height: 50vh;
     }
 
     #footer {
@@ -829,7 +832,7 @@ p {
     }
 
     #hero-text h1 {
-        font-size: 200px;
+        font-size: 150px;
     }
 
     #hero-sub-text {
@@ -839,7 +842,7 @@ p {
     }
 
     #hero-sub-text > h2 {
-        font-size: 120px;
+        font-size: 100px;
     }
 
     .donate-red {
@@ -924,6 +927,7 @@ p {
 
     #bio-btn {
         height: 10vh;
+        font-size: 50px;
         left: none;
         margin-top: 30px;
         position:unset;
