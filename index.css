@@ -34,6 +34,34 @@ p {
     font-size: 20px;
 }
 
+/********** NAVIGATION **********/
+#header {
+    background-color: white;
+    border-bottom-color: rgb(1,22,137);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    display: flex;
+    font-weight: 100;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+#logo {
+    height: 100%;
+    width: 30%;
+}
+
+#header-menu {
+    margin-left: 10%;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: right;
+    width: 70%;
+}
+
 .menu-text a {
     color: rgb(207, 20, 44);
     font-size: 20px;
@@ -43,88 +71,7 @@ p {
     text-decoration: none;
 }
 
-#header {
-    background-color: white;
-    border-bottom-color: rgb(1,22,137);
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-    display: flex;
-    font-weight: 100;
-    height: 70px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 5;
-}
-
-#header-menu {
-    margin-left: 10%;
-    padding-right: 30px;
-    padding-top: 2px;
-    text-align: right;
-    width: 70%;
-}
-
-#logo {
-    height: 100%;
-    width: 20%;
-}
-
-#background {
-    background-image:
-    linear-gradient(to right, rgba(15, 26, 87, 0.32), rgba(117, 19, 93, 0)),
-    url('images/lea-speaking.png');
-    background-position-x: center;
-    background-position-y: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    display: inline-block;
-    height: fit-content;
-    margin-top: 75px;
-    position:static;
-    text-align: right;
-    width: 100%;
-}
-
-#hero-text {
-    color: white;
-    height: 120px;
-    margin-top: 20%;
-    opacity: 1;
-    padding-right: 1.5%;
-    text-align: center;
-    width: 55%;
-}
-
-#hero-sub-text {
-    color: white;
-    float: left;
-    font-family: Calibri, sans-serif;
-    font-weight: 100;
-    text-align: center;
-}
-
-#hero-text h1 {
-    background-color: rgb(207,20,44);
-    font-size: 125px;
-    line-height: 0.35;
-    margin-bottom: 0;
-}
-
-#donate,
-#petition {
-    background-color: rgb(1,22,137);
-    color: white;
-    margin: 0;
-    padding-bottom: 80px;
-    padding-top: 10px;
-    text-align: center;
-    width: 100%;
-}
-
+/********** PETITION POP-UP **********/
 #petition-top {
     background-color: rgb(1, 22, 137);
     border: 5px solid white;
@@ -170,6 +117,145 @@ p {
     visibility: hidden;
 }
 
+#petition-img {
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 25%;
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 25%;
+}
+
+#donate,
+#petition {
+    background-color: rgb(1,22,137);
+    color: white;
+    margin: 0;
+    padding-bottom: 80px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#petition-heading {
+    margin-top: 8%;
+}
+
+
+.donate-red:hover,
+.petition-btn:hover {
+    background-color: rgb(199, 134, 143);
+    background-color: white;
+    border: 1px rgb(207,20,44) solid;
+    color: rgb(207,20,44);
+}
+
+.petition-btn {
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 80%;
+}
+
+.donate-red,
+.donate-clean,
+.petition-btn {
+    background-color: rgb(207,20,44);
+    border: 1px white solid;
+    border-radius: 7px;
+    color: white;
+    font-size: 36px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 150px;
+}
+
+.petition-btn {
+    margin-left: 30%;
+    height: 100px;
+    width: 500px;
+}
+
+.donate-red {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.donate-clean {
+    border-radius: 50%;
+    height: 150px;
+    text-align: center;
+}
+
+.tooltip {
+    display:inline-block;
+    position:relative;
+    text-align:left;
+    margin-bottom: 40px;
+}
+
+.tooltip h3 {margin:12px 0;}
+
+.tooltip .bottom {
+    min-width:300px;
+    max-width:600px;
+    top:40px;
+    left:50%;
+    margin-left:20px;
+    transform:translate(-50%, 0);
+    padding:0;
+    color:#EEEEEE;
+    background-color:#444444;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    visibility:hidden; opacity:0; transition:opacity 0.8s;
+}
+
+.tooltip:hover .bottom {
+    visibility:visible; opacity:1;
+}
+
+.tooltip .bottom img {
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 50px;
+    width:50px;
+    border-radius:8px 8px 0 0;
+}
+
+.tooltip .text-content {
+    padding:10px 20px;
+}
+
+.tooltip .right i {
+    position:absolute;
+    bottom: 100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+.tooltip .right i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(50%,-50%) rotate(45deg);
+    background-color:#444444;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
+
+
 .flex {
     display: flex;
     height: 60%;
@@ -190,14 +276,56 @@ p {
     text-decoration: underline;
 }
 
-#petition-img {
-    border: 3px solid white;
-    border-radius: 50%;
-    height: 25%;
-    margin-left: 5%;
-    margin-top: 10%;
-    width: 25%;
+/********** HERO SECTION **********/
+#background {
+    background-image:
+    linear-gradient(to right, rgba(15, 26, 87, 0.32), rgba(117, 19, 93, 0)),
+    url('images/lea-speaking.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    display: inline-block;
+    height: fit-content;
+    margin-top: 92px;
+    position:static;
+    text-align: right;
+    width: 100%;
 }
+
+#hero-text {
+    color: white;
+    height: 120px;
+    margin-top: 20%;
+    opacity: 1;
+    padding-right: 1.5%;
+    text-align: center;
+    width: 55%;
+}
+
+#hero-sub-text {
+    color: white;
+    float: left;
+    font-family: Calibri, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+#hero-text h1 {
+    background-color: rgb(207,20,44);
+    font-size: 125px;
+    line-height: 0.35;
+    margin-bottom: 0;
+}
+
+/********** MEET LEA **********/
+#bio {
+    background-color: white;
+}
+
 
 .bio-section-left {
     color: rgb(30,42,58);
@@ -209,17 +337,6 @@ p {
     padding-left: 10%;
     position: relative;
     width: 50%;
-}
-
-#family-photos {
-    display: flex;
-    height: 500px;
-    text-align: center;
-    width: 100%;
-}
-
-#family-photos > img {
-    padding: 20px;
 }
 
 #bio-heading {
@@ -269,43 +386,7 @@ p {
     width: 90%;
 }
 
-#donate-btns {
-    display: flex;
-}
-
-#petition-heading {
-    margin-top: 8%;
-}
-
-.donate-red,
-.petition-btn {
-    background-color: rgb(207,20,44);
-    border: 1px white solid;
-    border-radius: 7px;
-    color: white;
-    font-size: 36px;
-    height: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 150px;
-}
-
-.donate-red:hover,
-.petition-btn:hover {
-    background-color: rgb(199, 134, 143);
-    background-color: white;
-    border: 1px rgb(207,20,44) solid;
-    color: rgb(207,20,44);
-}
-
-.petition-btn {
-    height: 100px;
-    margin: auto;
-    margin-top: 100px;
-    padding: 20px;
-    width: 80%;
-}
-
+/********** VIDEO **********/
 #video-container {
     background-image: url("images/desert.jpg");
     background-position-x: center;
@@ -348,46 +429,12 @@ p {
     width: 30%;
 }
 
-.red-bg {
-    background-color: rgb(207,20,44);
-}
-
-.white-bg {
-    background-color: white;
-    color: rgb(207,20,44);
-}
-
-.blue-bg {
-    background-color: rgb(1,22,137);
-}
-
-.white-text {
-    color: white;
-}
-
-#social-media {
+/********** DONATE **********/
+#donate-btns {
     display: flex;
-    height: 200px;
-    margin-left: 30%;
-    margin-top: 50px;
-    width: 100%;
 }
 
-.social-container {
-    height: 200px;
-    width: 200px;
-}
-
-.social {
-    height: 75px;
-    width: 75px;
-}
-
-.social:hover {
-    height: 100px;
-    width: 100px;
-}
-
+/********** ISSUES **********/
 #issues {
     background-image:
     linear-gradient(to bottom, rgba(117, 19, 93, 0.53), white),
@@ -426,11 +473,123 @@ p {
     border: 1px white solid;
 }
 
+/********** RESULTS **********/
+#results {
+    background-image:
+    linear-gradient(to bottom, rgba(117, 19, 93, 0.53), white),
+    url('images/lea-meeting.webp');
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 120px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#results-container {
+    display: flex;
+    margin-top: 160px;
+}
+
+#results-box {
+    background-color: rgba(255, 255, 255, 0.53);
+    border: 1px rgb(207,20,44) solid;
+    border-radius: 15px;
+    color: rgb(1,22,137);
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: right;
+    width: 65%;
+}
+
+.result {
+    display: flex;
+    height: 25%;
+    vertical-align: middle;
+}
+
+.result p {
+    font-size: 32px;
+}
+
+.result img {
+    background-color: white;
+    border: 1px rgb(207,20,44) solid;
+    border-radius: 50%;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#family-photos {
+    display: flex;
+    height: 500px;
+    text-align: center;
+    width: 100%;
+}
+
+#family-photos > img {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+.red-bg {
+    background-color: rgb(207,20,44);
+}
+
+.white-bg {
+    background-color: white;
+    color: rgb(207,20,44);
+}
+
+.blue-bg {
+    background-color: rgb(1,22,137);
+}
+
+.white-text {
+    color: white;
+}
+
+/********** SOCIAL **********/
+#social-media {
+    display: flex;
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.social-container {
+    height: 200px;
+    width: 200px;
+}
+
+.social {
+    height: 75px;
+    width: 75px;
+}
+
+.social:hover {
+    height: 100px;
+    width: 100px;
+}
+
 .icon {
     height: 110px;
     width: 110px;
 }
 
+/********** JOIN LEA **********/
 #join {
     background-color: rgb(207,20,44);
     color: white;
@@ -473,6 +632,7 @@ p {
     color: rgb(1,22,137);
 }
 
+/********** FOOTER **********/
 #footer {
     background-color: rgb(1,22,137);
     padding-bottom: 40px;
@@ -487,60 +647,6 @@ p {
     padding: 10px;
     text-align: center;
     width: 60%;
-}
-
-#results {
-    background-image:
-    linear-gradient(to bottom, rgba(117, 19, 93, 0.53), white),
-    url('images/lea-meeting.webp');
-    background-position-x: center;
-    background-position-y: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    color: white;
-    padding-bottom: 120px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-#results-container {
-    display: flex;
-    margin-top: 100px;
-}
-
-#results-box {
-    background-color: rgba(255, 255, 255, 0.53);
-    border: 1px rgb(207,20,44) solid;
-    border-radius: 15px;
-    color: rgb(1,22,137);
-    margin-left: 17.5%;
-    margin-right: 17.5%;
-    padding-left: 3%;
-    padding-right: 3%;
-    text-align: right;
-    width: 65%;
-}
-
-#bio {
-    background-color: white;
-}
-
-.result {
-    display: flex;
-    height: 25%;
-    vertical-align: middle;
-}
-
-.result p {
-    font-size: 32px;
-}
-
-.result img {
-    background-color: white;
-    border: 1px rgb(207,20,44) solid;
-    border-radius: 50%;
-    margin-top: 30px;
-    padding: 20px;
 }
 
 /* The typing effect */
@@ -590,9 +696,76 @@ p {
     text-decoration: underline;
 }
 
+#petition-sub {
+    margin: auto;
+    width: 80%;
+}
+
+#petition-heading > h1 {
+    font-size: 62px;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 800px) {
+    #petition-heading > h1 {
+        font-size: 62px;
+        margin: auto;
+    }
+
+    #petition-sub {
+        padding-top: 40px;
+        width: 88%;
+    }
+    
+    #hero {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 550px) {
+    #hero {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 550px) {
+    #petition-heading > h1 {
+        margin: auto;
+        width: 75%;
+    }
+
+    #petition-sub {
+        padding-top: 30px;
+        width: 75%;
+    }
+
+    #donation-btns {
+        margin: auto;
+        width: 70%;
+        text-align: center;
+    }
+
+    #hero {
+        width: 350px;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     body {
         overflow-x: hidden;
+    }
+
+    #donation-btns {
+        margin: auto;
+        text-align: center;
+        width: 50%;
+    }
+
+    #petition-heading > h1 {
+        margin: auto;
+    }
+
+    #petition-sub {
+        padding-top: 20px;
     }
 
     #hero-text {
@@ -618,8 +791,20 @@ p {
         width: 200px;
     }
 
-    #background {
-        height: auto;
+    #background,
+    #petition,
+    #video-container,
+    #join {
+        height: 100vh;
+    }
+
+    #bio,
+    #petition {
+        height: 150vh;
+    }
+
+    #footer {
+        height: 50vh;
     }
 
     #header-menu {
@@ -738,7 +923,9 @@ p {
     }
 
     #bio-btn {
+        height: 10vh;
         left: none;
+        margin-top: 30px;
         position:unset;
         width: 90%;
     }
