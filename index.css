@@ -752,7 +752,7 @@ p {
 @media only screen and (max-width: 992px) {
     body {
         overflow-x: hidden;
-        width: 100%;
+        width: 100vw;
     }
 
     #donation-btns {
@@ -790,16 +790,19 @@ p {
     #background,
     #petition {
         height: 100vh;
-        width: 100%;
+        width: 100vw;
     }
 
     #bio {
         height: 130vh;
     }
 
-    #join,
     #video-container {
         height: 60vh;
+    }
+
+    #join {
+        height: 50vh;
     }
 
     #petition {
@@ -859,7 +862,7 @@ p {
     }
 
     #social-media {
-        margin-left: 5%;
+        margin-left: auto;
         width: 100%;
     }
 
@@ -901,9 +904,9 @@ p {
 
     #petition-top {
         bottom: 0;
-        height: 150px;
+        height: 300px;
         margin-left: 60%;
-        width: 150px;
+        width: 300px;
     }
 
     .petition-btn {
