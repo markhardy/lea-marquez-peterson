@@ -788,14 +788,18 @@ p {
     }
 
     #background,
-    #petition,
-    #video-container,
-    #join {
+    #petition {
         height: 100vh;
+        width: 100%;
     }
 
     #bio {
         height: 130vh;
+    }
+
+    #join,
+    #video-container {
+        height: 60vh;
     }
 
     #petition {
