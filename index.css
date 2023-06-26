@@ -797,6 +797,11 @@ p {
     #bio {
         height: 90vh;
     }
+
+    h1 {
+        font-size: 150px;
+    }
+    
     #petition {
         height: 50vh;
     }
@@ -831,7 +836,11 @@ p {
         width: 100%;
     }
 
-    #hero-text h1 {
+    #hero {
+        width: 80%;
+    }
+
+    #hero > h1 {
         font-size: 150px;
     }
 
