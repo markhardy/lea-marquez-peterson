@@ -798,10 +798,6 @@ p {
         height: 90vh;
     }
 
-    h1 {
-        font-size: 150px;
-    }
-    
     #petition {
         height: 50vh;
     }
@@ -1051,4 +1047,25 @@ p {
         -webkit-transform: unset;
         transform: unset;
     }
+
+    h1 {
+        font-size: 150px;
+    }
+
+    h2 {
+        font-size: 100px;
+    }
+
+    h3 {
+        font-size: 75px;
+    }
+
+    h4 {
+        font-size: 50px;
+    }
+
+    h5 {
+        font-size: 40px;
+    }
+
 }
