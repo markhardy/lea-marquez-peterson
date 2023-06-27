@@ -954,8 +954,8 @@ p {
         width: 80%;
     }
 
-    #petition-heading > h1 {
-        font-size: 58px;
+    #petition-top {
+        font-size: 64px;
         margin-bottom: 100px;
     }
 
@@ -965,7 +965,7 @@ p {
 
     #petition-img {
         border: 3px solid white;
-        border-radius: 20px;
+        border-radius: 50%;
         height: 600px;
         margin-bottom: 150px;
         margin-top: 300px;
