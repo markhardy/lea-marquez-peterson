@@ -873,11 +873,14 @@ p {
 
     #video-box {
         height: 625px;
+        margin-bottom: 200px;
     }
 
     #video-heading {
         display: block;
         margin: auto;
+        margin-bottom: 150px;
+        margin-top: 200px;
         width: 100%;
     }
 
@@ -915,9 +918,10 @@ p {
     }
 
     .petition-btn {
+        font-size: 30px;
         margin-left: 0;
         height: 150px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
         margin-top: 150px;
         width: 80%;
     }
