@@ -924,8 +924,9 @@ p {
     }
 
     #petition-img {
-        height: 400px;
-        width: 400px;
+        height: 600px;
+        margin-top: 400px;
+        width: 600px;
     }
 
     .bio-section-left,
@@ -950,6 +951,7 @@ p {
         height: 10vh;
         font-size: 50px;
         left: none;
+        margin-bottom: 300px;
         margin-top: 30px;
         position:unset;
         width: 90%;
