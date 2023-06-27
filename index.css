@@ -788,11 +788,16 @@ p {
     }
 
     #background,
-    #petition {
-        height: 100vh;
+    #petition,
+    #video-container,
+    #bio,
+    #join,
+    #petition,
+    #footer {
+        height: fit-content;
         width: 100vw;
     }
-
+    /*
     #bio {
         height: 130vh;
     }
@@ -811,7 +816,7 @@ p {
 
     #footer {
         height: 50vh;
-    }
+    }*/
 
     #header-menu {
         visibility: hidden;
