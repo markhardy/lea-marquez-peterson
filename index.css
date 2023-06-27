@@ -916,7 +916,10 @@ p {
 
     .petition-btn {
         margin-left: 0;
-        width: 70%;
+        height: 150px;
+        margin-bottom: 200px;
+        margin-top: 150px;
+        width: 80%;
     }
 
     #petition-text > h2 {
@@ -925,7 +928,8 @@ p {
 
     #petition-img {
         height: 600px;
-        margin-top: 400px;
+        margin-bottom: 150px;
+        margin-top: 300px;
         width: 600px;
     }
 
