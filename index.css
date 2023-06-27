@@ -801,6 +801,7 @@ p {
     #video-container,
     #bio,
     #join,
+    #donate,
     #petition,
     #footer {
         height: fit-content;
@@ -826,6 +827,14 @@ p {
     #footer {
         height: 50vh;
     }*/
+
+    #donate {
+        padding-bottom: 150px;
+    }
+
+    #issues {
+        padding-top: 150px;
+    }
 
     #header-menu {
         visibility: hidden;
