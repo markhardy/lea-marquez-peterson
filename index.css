@@ -890,6 +890,10 @@ p {
         width: 90%;
     }
 
+    .video-p {
+        font-size: 55px;
+    }
+
     .video-frame {
         margin-top: 10px;
     }
