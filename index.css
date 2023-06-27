@@ -880,7 +880,7 @@ p {
         display: block;
         margin: auto;
         margin-bottom: 150px;
-        margin-top: 200px;
+        padding-top: 200px;
         width: 100%;
     }
 
