@@ -751,6 +751,7 @@ p {
 
 @media only screen and (max-width: 992px) {
     body {
+        font-family: Calibri, sans-serif;
         overflow-x: hidden;
         width: 100vw;
     }
@@ -758,7 +759,15 @@ p {
     #donation-btns {
         margin: auto;
         text-align: center;
-        width: 50%;
+        width: 90%;
+    }
+
+    .donate-red,
+    .donate-clean {
+        border-radius: unset;
+        font-size: 50px;
+        height: 150px;
+        width: 100%;
     }
 
     #petition-heading > h1 {
@@ -922,7 +931,7 @@ p {
     }
 
     .petition-btn {
-        font-size: 30px;
+        font-size: 50px;
         margin-left: 0;
         height: 150px;
         margin-bottom: 100px;
