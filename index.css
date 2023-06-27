@@ -837,7 +837,9 @@ p {
     }
 
     .icon {
+        height: 200px;
         padding-top: 100px;
+        width: 200px;
     }
 
     #header-menu {
@@ -952,11 +954,18 @@ p {
         width: 80%;
     }
 
+    #petition-heading > h1 {
+        font-size: 58px;
+        margin-bottom: 100px;
+    }
+
     #petition-text > h2 {
         font-size: 46px;
     }
 
     #petition-img {
+        border: 3px solid white;
+        border-radius: 20px;
         height: 600px;
         margin-bottom: 150px;
         margin-top: 300px;
