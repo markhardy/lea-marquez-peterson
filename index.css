@@ -919,9 +919,13 @@ p {
         width: 70%;
     }
 
+    #petition-text > h2 {
+        font-size: 46px;
+    }
+
     #petition-img {
-        height: 200px;
-        width: 200px;
+        height: 400px;
+        width: 400px;
     }
 
     .bio-section-left,
