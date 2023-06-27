@@ -836,6 +836,10 @@ p {
         padding-top: 150px;
     }
 
+    .icon {
+        padding-top: 100px;
+    }
+
     #header-menu {
         visibility: hidden;
         width: 0;
