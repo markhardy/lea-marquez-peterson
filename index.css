@@ -810,6 +810,7 @@ p {
     #petition,
     #footer {
         height: fit-content;
+        overflow-x: hidden;
         width: 100vw;
     }
     /*
@@ -866,8 +867,8 @@ p {
     }
 
     #logo {
-        margin-left: 35%;
-        width: 30%;
+        margin: auto;
+        width: 50%;
     }
 
     .mobile-flex {
@@ -1056,7 +1057,8 @@ p {
 
     #join input,
     #join button {
-        height: 300px;
+        font-size: 42px;
+        height: 150px;
     }
 
     .midway {
@@ -1136,6 +1138,8 @@ p {
 
     .social {
         height: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
         width: 200px;
     }
 
@@ -1157,6 +1161,12 @@ p {
 
     h5, p {
         font-size: 50px;
+    }
+
+    section {
+        height: fit-content;
+        overflow-x: hidden;
+        width: 100vw;
     }
 
 }
