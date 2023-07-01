@@ -1040,6 +1040,11 @@ p {
         width: 90%;
     }
 
+    .subscribe {
+        margin: 0;
+        padding: 0;
+    }
+
     .midway {
         padding: 0;
     }
