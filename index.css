@@ -1044,8 +1044,14 @@ p {
     }
 
     #join h1 {
+        font-size: 130px;
         margin-left: 2.5%;
         margin-right: 2.5%;
+    }
+
+    #join input,
+    #join button {
+        height: 300px;
     }
 
     .midway {
