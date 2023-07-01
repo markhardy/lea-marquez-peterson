@@ -834,8 +834,7 @@ p {
     #issues,
     #donate,
     #join,
-    #footer,
-    #paid-for {
+    #footer {
         padding-bottom: 300px;
         padding-top: 150px;
     }
