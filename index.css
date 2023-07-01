@@ -1143,7 +1143,14 @@ p {
     .social {
         margin: auto;
         text-align: center;
-        width: 100%;
+    }
+
+    #logo {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        margin: auto;
+        width: 40%;
     }
 
     h1 {
