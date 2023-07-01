@@ -1040,9 +1040,15 @@ p {
         width: 90%;
     }
 
-    .subscribe {
+    .subscribe,
+    #header-menu {
         margin: 0;
         padding: 0;
+    }
+
+    #close-petition {
+        font-size: 36px;
+        padding-top: 15px;
     }
 
     .midway {
