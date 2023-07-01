@@ -840,7 +840,8 @@ p {
     #issues,
     #donate,
     #join,
-    #footer {
+    #footer,
+    #paid-for {
         padding-bottom: 300px;
         padding-top: 150px;
     }
@@ -1127,6 +1128,10 @@ p {
     .hvr-rectangle-in:active:before {
         -webkit-transform: unset;
         transform: unset;
+    }
+
+    #paid-for h3 {
+        font-size: 50px;
     }
 
     .social {
