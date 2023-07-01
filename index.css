@@ -805,26 +805,6 @@ p {
         overflow-x: hidden;
         width: 100vw;
     }
-    /*
-    #bio {
-        height: 130vh;
-    }
-
-    #video-container {
-        height: 60vh;
-    }
-
-    #join {
-        height: 50vh;
-    }
-
-    #petition {
-        height: 90vh;
-    }
-
-    #footer {
-        height: 50vh;
-    }*/
 
     #donate {
         padding-bottom: 150px;
@@ -1157,7 +1137,9 @@ p {
     }
 
     #social-media,
-    #footer {
+    #footer,
+    .social-container,
+    .social {
         margin: auto;
         text-align: center;
         width: 100%;
