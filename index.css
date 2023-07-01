@@ -1033,8 +1033,8 @@ p {
         margin-right: 2.5%;
     }
 
-    #join input,
-    #join button {
+    #newsletter input,
+    #newsletter button {
         font-size: 64px;
         height: 150px;
         width: 90%;
@@ -1147,10 +1147,14 @@ p {
     }
 
     #logo {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
         margin: 0;
         width: 40%;
+    }
+
+    #header {
+        padding: 0;
+        margin: 0;
     }
 
     h1 {
