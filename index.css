@@ -770,6 +770,10 @@ p {
         width: 100%;
     }
 
+    .tooltip {
+        width: 90%;
+    }
+
     #petition-heading > h1 {
         margin: auto;
     }
@@ -837,9 +841,13 @@ p {
     }
 
     .icon {
-        height: 200px;
+        height: 400px;
         padding-top: 100px;
-        width: 200px;
+        width: 400px;
+    }
+
+    .result > p {
+        font-size: 48px;
     }
 
     #header-menu {
