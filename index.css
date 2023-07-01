@@ -51,7 +51,7 @@ p {
 
 #logo {
     height: 100%;
-    width: 30%;
+    width: 80%;
 }
 
 #header-menu {
@@ -719,7 +719,7 @@ p {
     }
 }
 
-@media screen and (max-width: 799px) and (min-width: 550px) {
+@media screen and (max-width: 549px) and (min-width: 550px) {
     #petition-heading > h1 {
         margin: auto;
         width: 75%;
