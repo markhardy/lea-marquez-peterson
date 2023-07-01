@@ -1134,6 +1134,7 @@ p {
         padding-left: 0;
         padding-right: 0;
         padding-top: 0;
+        width: 90%;
     }
 
     #paid-for h3 {
@@ -1155,7 +1156,8 @@ p {
         padding-right: 0;
     }
 
-    #social-media {
+    #social-media,
+    #footer {
         margin: auto;
         text-align: center;
         width: 100%;
