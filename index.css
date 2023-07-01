@@ -901,6 +901,8 @@ p {
     }
 
     #social-media {
+        padding-left: 0;
+        padding-right: 0;
         width: 100%;
     }
 
@@ -1126,6 +1128,13 @@ p {
     .hvr-rectangle-in:active:before {
         -webkit-transform: unset;
         transform: unset;
+    }
+
+    #paid-for {
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
     }
 
     #paid-for h3 {
