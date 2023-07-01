@@ -1040,6 +1040,10 @@ p {
         width: 90%;
     }
 
+    #newsletter button {
+        padding-top: 150px;
+    }
+
     .subscribe,
     #header-menu {
         margin: 0;
