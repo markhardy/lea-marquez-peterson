@@ -1046,6 +1046,10 @@ p {
         padding: 0;
     }
 
+    #header {
+        width: 0px;
+    }
+
     #close-petition {
         font-size: 36px;
         padding-top: 15px;
