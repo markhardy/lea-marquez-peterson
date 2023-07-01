@@ -961,6 +961,7 @@ p {
 
     #petition-img {
         border-radius: 50%;
+        border: none;
         height: 600px;
         width: 600px;
     }
