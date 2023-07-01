@@ -1057,8 +1057,9 @@ p {
 
     #join input,
     #join button {
-        font-size: 42px;
+        font-size: 64px;
         height: 150px;
+        width: 90%;
     }
 
     .midway {
@@ -1134,6 +1135,8 @@ p {
 
     #paid-for h3 {
         font-size: 50px;
+        padding-bottom: 0;
+        padding-top: 0;
     }
 
     .social-container {
@@ -1141,6 +1144,11 @@ p {
         padding-left: 20px;
         padding-right: 20px;
         width: 200px;
+    }
+
+    #footer {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     h1 {
