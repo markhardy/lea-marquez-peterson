@@ -771,7 +771,7 @@ p {
     }
 
     .tooltip {
-        width: 90%;
+        width: 100%;
     }
 
     #petition-heading > h1 {
@@ -806,6 +806,7 @@ p {
     #bio,
     #join,
     #donate,
+    #issues,
     #petition,
     #footer {
         height: fit-content;
@@ -836,7 +837,11 @@ p {
         padding-bottom: 150px;
     }
 
-    #issues {
+    #issues,
+    #donate,
+    #join,
+    #footer {
+        padding-bottom: 300px;
         padding-top: 150px;
     }
 
@@ -847,7 +852,7 @@ p {
     }
 
     .result > p {
-        font-size: 48px;
+        font-size: 96px;
     }
 
     #header-menu {
@@ -899,7 +904,7 @@ p {
     }
 
     #social-media {
-        margin-left: auto;
+        margin: auto;;
         width: 100%;
     }
 
