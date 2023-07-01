@@ -792,7 +792,6 @@ p {
         width: 200px;
     }
 
-    #header,
     #background,
     #petition,
     #video-container,
@@ -1151,12 +1150,15 @@ p {
     }
 
     #footer {
+        padding-bottom: 400px;
         padding-left: 0;
         padding-right: 0;
     }
 
     #social-media {
         margin: auto;
+        text-align: center;
+        width: 100%;
     }
 
     h1 {
