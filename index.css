@@ -836,6 +836,7 @@ p {
     #header {
         margin: auto;
         text-align: center;
+        width: 100%;
     }
 
     #logo {
