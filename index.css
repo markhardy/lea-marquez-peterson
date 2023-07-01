@@ -1041,7 +1041,7 @@ p {
     }
 
     #newsletter button {
-        padding-top: 150px;
+        margin-top: 150px;
     }
 
     .subscribe,
@@ -1050,7 +1050,7 @@ p {
         padding: 0;
     }
 
-    #header {
+    #header-menu {
         width: 0px;
     }
 
