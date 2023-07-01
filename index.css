@@ -1106,8 +1106,8 @@ p {
     }
 
     #about-text {
-        margin-left: 10%;
-        margin-right: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
         text-overflow: clip;
         width: 80%;
     }
@@ -1136,10 +1136,10 @@ p {
         font-size: 50px;
     }
 
-    .social {
+    .social-container {
         height: 200px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
         width: 200px;
     }
 
