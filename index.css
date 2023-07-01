@@ -904,7 +904,11 @@ p {
     }
 
     #social-media {
-        margin: auto;;
+        width: 100%;
+    }
+
+    #social-container {
+        margin: auto;
         width: 100%;
     }
 
@@ -1123,6 +1127,11 @@ p {
     .hvr-rectangle-in:active:before {
         -webkit-transform: unset;
         transform: unset;
+    }
+
+    .social {
+        height: 200px;
+        width: 200px;
     }
 
     h1 {
