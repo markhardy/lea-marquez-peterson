@@ -51,7 +51,7 @@ p {
 
 #logo {
     height: 100%;
-    width: 30%;
+    width: 80%;
 }
 
 #header-menu {
@@ -74,7 +74,7 @@ p {
 /********** PETITION POP-UP **********/
 #petition-top {
     background-color: rgb(1, 22, 137);
-    border: 5px solid white;
+    border: 3px solid white;
     border-radius: 50%;
     color: white;
     display: flex;
@@ -118,7 +118,6 @@ p {
 }
 
 #petition-img {
-    border: 3px solid white;
     border-radius: 50%;
     height: 25%;
     margin-left: 5%;
@@ -623,7 +622,16 @@ p {
     color: white;
     font-size: 32px;
     height: 80px;
+    margin: auto;
     width: 83%;
+}
+
+.subscribe a {
+    color: white;
+}
+
+.subscribe a:hover {
+    color:rgb(1, 22, 137);
 }
 
 .subscribe:hover {
