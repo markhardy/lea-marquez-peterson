@@ -563,13 +563,14 @@ p {
 #social-media {
     display: flex;
     height: 200px;
-    margin-left: 30%;
     margin-top: 50px;
+    text-align: center;
     width: 100%;
 }
 
 .social-container {
     height: 200px;
+    margin: auto;
     width: 200px;
 }
 
