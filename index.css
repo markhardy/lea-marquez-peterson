@@ -51,6 +51,7 @@ p {
 
 #logo {
     height: 100%;
+    margin: auto;
     width: 80%;
 }
 
@@ -840,6 +841,9 @@ p {
     #footer {
         height: 50vh;
     }*/
+    #close-petition {
+        font-size: 20px;
+    }
 
     #donate {
         padding-bottom: 150px;
