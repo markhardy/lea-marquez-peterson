@@ -842,7 +842,11 @@ p {
         height: 50vh;
     }*/
     #close-petition {
-        font-size: 20px;
+        font-size: 44px;
+    }
+
+    #paid-for {
+        font-size: 36px;
     }
 
     #donate {
@@ -873,7 +877,7 @@ p {
     }
 
     #logo {
-        margin-left: 35%;
+        margin: auto;
         width: 30%;
     }
 
