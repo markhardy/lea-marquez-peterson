@@ -842,7 +842,7 @@ p {
         height: 50vh;
     }*/
     #close-petition {
-        font-size: 44px;
+        font-size: 28px;
     }
 
     #paid-for {
@@ -877,7 +877,7 @@ p {
     }
 
     #logo {
-        margin: auto;
+        margin-left: 35%;
         width: 30%;
     }
 
