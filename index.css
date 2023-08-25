@@ -51,7 +51,7 @@ p {
 
 #logo {
     height: 100%;
-    width: 80%;
+    width: 30%;
 }
 
 #header-menu {
@@ -535,6 +535,14 @@ p {
     padding: 20px;
 }
 
+
+
+
+
+
+
+
+
 .red-bg {
     background-color: rgb(207,20,44);
 }
@@ -719,7 +727,7 @@ p {
     }
 }
 
-@media screen and (max-width: 549px) and (min-width: 550px) {
+@media screen and (max-width: 799px) and (min-width: 550px) {
     #petition-heading > h1 {
         margin: auto;
         width: 75%;
@@ -763,7 +771,7 @@ p {
     }
 
     .tooltip {
-        width: 100%;
+        width: 90%;
     }
 
     #petition-heading > h1 {
@@ -798,23 +806,37 @@ p {
     #bio,
     #join,
     #donate,
-    #issues,
     #petition,
     #footer {
         height: fit-content;
-        overflow-x: hidden;
         width: 100vw;
     }
+    /*
+    #bio {
+        height: 130vh;
+    }
+
+    #video-container {
+        height: 60vh;
+    }
+
+    #join {
+        height: 50vh;
+    }
+
+    #petition {
+        height: 90vh;
+    }
+
+    #footer {
+        height: 50vh;
+    }*/
 
     #donate {
         padding-bottom: 150px;
     }
 
-    #issues,
-    #donate,
-    #join,
-    #footer {
-        padding-bottom: 300px;
+    #issues {
         padding-top: 150px;
     }
 
@@ -825,7 +847,7 @@ p {
     }
 
     .result > p {
-        font-size: 96px;
+        font-size: 48px;
     }
 
     #header-menu {
@@ -834,16 +856,12 @@ p {
     }
 
     #header {
-        margin: auto;
         text-align: center;
-        width: 100%;
     }
 
     #logo {
-        margin: auto;
-        padding-left: 0;
-        padding-right: 0;
-        width: 50%;
+        margin-left: 35%;
+        width: 30%;
     }
 
     .mobile-flex {
@@ -881,13 +899,7 @@ p {
     }
 
     #social-media {
-        padding-left: 0;
-        padding-right: 0;
-        width: 100%;
-    }
-
-    #social-container {
-        margin: auto;
+        margin-left: auto;
         width: 100%;
     }
 
@@ -961,7 +973,6 @@ p {
 
     #petition-img {
         border-radius: 50%;
-        border: none;
         height: 600px;
         width: 600px;
     }
@@ -1028,35 +1039,9 @@ p {
     }
 
     #join h1 {
-        font-size: 130px;
+        font-size: 64px;
         margin-left: 2.5%;
         margin-right: 2.5%;
-    }
-
-    #newsletter input,
-    #newsletter button {
-        font-size: 64px;
-        height: 150px;
-        width: 90%;
-    }
-
-    #newsletter button {
-        margin-top: 150px;
-    }
-
-    .subscribe,
-    #header-menu {
-        margin: 0;
-        padding: 0;
-    }
-
-    #header-menu {
-        width: 0px;
-    }
-
-    #close-petition {
-        font-size: 36px;
-        padding-top: 15px;
     }
 
     .midway {
@@ -1104,8 +1089,8 @@ p {
     }
 
     #about-text {
-        padding-left: 10%;
-        padding-right: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
         text-overflow: clip;
         width: 80%;
     }
@@ -1130,52 +1115,6 @@ p {
         transform: unset;
     }
 
-    #paid-for {
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 0;
-        width: 90%;
-    }
-
-    #paid-for h3 {
-        font-size: 50px;
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-
-    .social-container {
-        height: 200px;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 200px;
-    }
-
-    #footer {
-        padding-bottom: 400px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    #social-media,
-    #footer,
-    .social-container,
-    .social {
-        margin: auto;
-        text-align: center;
-    }
-
-    #logo {
-        padding: 0;
-        margin: 0;
-        width: 40%;
-    }
-
-    #header {
-        padding: 0;
-        margin: 0;
-    }
-
     h1 {
         font-size: 150px;
     }
@@ -1194,12 +1133,6 @@ p {
 
     h5, p {
         font-size: 50px;
-    }
-
-    section {
-        height: fit-content;
-        overflow-x: hidden;
-        width: 100vw;
     }
 
 }
