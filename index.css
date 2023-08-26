@@ -254,8 +254,6 @@ p {
     box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
 
-
-
 .flex {
     display: flex;
     height: 60%;
@@ -317,6 +315,7 @@ p {
 #hero-text h1 {
     background-color: rgb(207,20,44);
     font-size: 125px;
+    height: 120px;
     line-height: 0.35;
     margin-bottom: 0;
 }
@@ -630,6 +629,7 @@ p {
 
 .subscribe a {
     color: white;
+    text-decoration: none;
 }
 
 .subscribe a:hover {
@@ -851,6 +851,10 @@ p {
 
     #paid-for {
         font-size: 36px;
+    }
+
+    .subscribe {
+        height: 300px;
     }
 
     #donate {
