@@ -846,7 +846,7 @@ p {
         height: 50vh;
     }*/
     #close-petition {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     #paid-for {
@@ -910,6 +910,7 @@ p {
     }
 
     #hero-sub-text {
+        height: unset;
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
