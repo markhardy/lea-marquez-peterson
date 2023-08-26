@@ -988,6 +988,10 @@ p {
         margin-bottom: 100px;
     }
 
+    #petition-text {
+        height: 50%;
+    }
+
     #petition-text > h2 {
         font-size: 46px;
     }
