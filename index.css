@@ -897,6 +897,7 @@ p {
     }
 
     #hero {
+        height: 1200px;
         width: 80%;
     }
 
@@ -985,6 +986,10 @@ p {
     #petition-upper {
         font-size: 64px;
         margin-bottom: 100px;
+    }
+
+    #petition-text {
+        height: 90%;
     }
 
     #petition-text > h2 {
