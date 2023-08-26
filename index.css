@@ -881,7 +881,7 @@ p {
     }
 
     #logo {
-        margin-left: 25%;
+        margin-left: 15%;
         width: 30%;
     }
 
@@ -893,7 +893,6 @@ p {
         margin: auto;
         padding-top: 5%;
         text-align: center;
-        height: 900px;
         width: 100%;
     }
 
