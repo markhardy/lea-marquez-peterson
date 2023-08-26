@@ -881,7 +881,7 @@ p {
     }
 
     #logo {
-        margin-left: 15%;
+        margin-left: 13%;
         width: 30%;
     }
 
@@ -893,11 +893,11 @@ p {
         margin: auto;
         padding-top: 5%;
         text-align: center;
+        height: 900px;
         width: 100%;
     }
 
     #hero {
-        height: 1200px;
         width: 80%;
     }
 
@@ -986,10 +986,6 @@ p {
     #petition-upper {
         font-size: 64px;
         margin-bottom: 100px;
-    }
-
-    #petition-text {
-        height: 90%;
     }
 
     #petition-text > h2 {
