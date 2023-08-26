@@ -913,6 +913,7 @@ p {
         height: unset;
         margin-left: 10%;
         margin-right: 10%;
+        overflow-y: hidden;
         width: 80%;
     }
 
