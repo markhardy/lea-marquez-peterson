@@ -766,6 +766,10 @@ p {
         width: 100vw;
     }
 
+    * {
+        overflow-x: hidden;
+    }
+
     #donation-btns {
         margin: auto;
         text-align: center;
@@ -877,7 +881,7 @@ p {
     }
 
     #logo {
-        margin-left: 35%;
+        margin-left: 25%;
         width: 30%;
     }
 
