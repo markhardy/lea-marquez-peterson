@@ -51,7 +51,6 @@ p {
 
 #logo {
     height: 100%;
-    margin: auto;
     width: 80%;
 }
 
@@ -75,7 +74,7 @@ p {
 /********** PETITION POP-UP **********/
 #petition-top {
     background-color: rgb(1, 22, 137);
-    border: 3px solid white;
+    border: 5px solid white;
     border-radius: 50%;
     color: white;
     display: flex;
@@ -119,6 +118,7 @@ p {
 }
 
 #petition-img {
+    border: 3px solid white;
     border-radius: 50%;
     height: 25%;
     margin-left: 5%;
@@ -141,6 +141,11 @@ p {
     margin-top: 8%;
 }
 
+#close-petition {
+    font-size: 36px;
+}
+
+
 .donate-red:hover,
 .petition-btn:hover {
     background-color: rgb(199, 134, 143);
@@ -162,38 +167,30 @@ p {
 .petition-btn {
     background-color: rgb(207,20,44);
     border: 1px white solid;
+    border-radius: 7px;
     color: white;
     font-size: 36px;
     height: 50px;
     margin-left: 15px;
     margin-right: 15px;
-    width: 80%;
+    width: 250px;
 }
 
 .petition-btn {
-    border-radius: 7px;
     margin-left: 30%;
     height: 100px;
     width: 500px;
 }
 
 .donate-red {
-    height: 150px;
-    margin: auto;
-    padding: 0;
-    text-align: center;
+    height: 250px;
+    border-radius: 50%;
 }
 
 .donate-clean {
+    border-radius: 50%;
     height: 150px;
     text-align: center;
-}
-
-#donation-btns,
-.donate-red {
-    margin: auto;
-    text-align: center;
-    width: 80%;
 }
 
 .tooltip {
@@ -203,7 +200,9 @@ p {
     margin-bottom: 40px;
 }
 
-.tooltip h3 {margin:12px 0;}
+.tooltip h3 {
+    margin:12px 0;
+}
 
 .tooltip .bottom {
     min-width:300px;
@@ -250,6 +249,7 @@ p {
     height:12px;
     overflow:hidden;
 }
+
 .tooltip .right i::after {
     content:'';
     position:absolute;
@@ -260,6 +260,8 @@ p {
     background-color:#444444;
     box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
+
+
 
 .flex {
     display: flex;
@@ -322,8 +324,7 @@ p {
 #hero-text h1 {
     background-color: rgb(207,20,44);
     font-size: 125px;
-    height: 120px;
-    line-height: 1.0;
+    line-height: 0.35;
     margin-bottom: 0;
 }
 
@@ -433,6 +434,11 @@ p {
     padding: 3px;
     text-align: center;
     width: 30%;
+}
+
+/********** DONATE **********/
+#donate-btns {
+    display: flex;
 }
 
 /********** ISSUES **********/
@@ -557,14 +563,13 @@ p {
 #social-media {
     display: flex;
     height: 200px;
+    margin-left: 30%;
     margin-top: 50px;
-    text-align: center;
     width: 100%;
 }
 
 .social-container {
     height: 200px;
-    margin: auto;
     width: 200px;
 }
 
@@ -616,22 +621,18 @@ p {
     border-radius: 5px;
     color: white;
     font-size: 32px;
+    margin-left: 35%;
     height: 80px;
-    margin: auto;
-    width: 83%;
+    width: 30%;
 }
 
-.subscribe a {
+.subscribe > a {
     color: white;
     text-decoration: none;
 }
 
-.subscribe a:hover {
-    color:rgb(1, 22, 137);
-}
-
 .subscribe:hover {
-    background-color: white;
+    background-color: rgb(207,20,44);
     border: 1px rgb(1,22,137) solid;
     color: rgb(1,22,137);
 }
@@ -719,6 +720,15 @@ p {
         padding-top: 40px;
         width: 88%;
     }
+
+    #petition-top {
+        height: 175px;
+        width: 175px;
+    }
+
+    .petition-h3 {
+        font-size: 20px;
+    }
     
     #hero {
         width: 600px;
@@ -729,9 +739,14 @@ p {
     #hero {
         width: 450px;
     }
+
+    #petition-top {
+        height: 150px;
+        width: 150px;
+    }
 }
 
-@media screen and (max-width: 799px) and (min-width: 550px) {
+@media screen and (max-width: 549px) and (min-width: 550px) {
     #petition-heading > h1 {
         margin: auto;
         width: 75%;
@@ -740,6 +755,11 @@ p {
     #petition-sub {
         padding-top: 30px;
         width: 75%;
+    }
+
+    #petition-top {
+        height: 50px;
+        width: 50px;
     }
 
     #donation-btns {
@@ -760,10 +780,6 @@ p {
         width: 100vw;
     }
 
-    * {
-        overflow-x: hidden;
-    }
-
     #donation-btns {
         margin: auto;
         text-align: center;
@@ -779,7 +795,7 @@ p {
     }
 
     .tooltip {
-        width: 90%;
+        width: 100%;
     }
 
     #petition-heading > h1 {
@@ -814,52 +830,23 @@ p {
     #bio,
     #join,
     #donate,
+    #issues,
     #petition,
     #footer {
         height: fit-content;
+        overflow-x: hidden;
         width: 100vw;
-    }
-
-    #background {
-        height: unset;
-    }
-    /*
-    #bio {
-        height: 130vh;
-    }
-
-    #video-container {
-        height: 60vh;
-    }
-
-    #join {
-        height: 50vh;
-    }
-
-    #petition {
-        height: 90vh;
-    }
-
-    #footer {
-        height: 50vh;
-    }*/
-    #close-petition {
-        font-size: 20px;
-    }
-
-    #paid-for {
-        font-size: 36px;
-    }
-
-    .subscribe {
-        height: 100px;
     }
 
     #donate {
         padding-bottom: 150px;
     }
 
-    #issues {
+    #issues,
+    #donate,
+    #join,
+    #footer {
+        padding-bottom: 300px;
         padding-top: 150px;
     }
 
@@ -870,7 +857,7 @@ p {
     }
 
     .result > p {
-        font-size: 48px;
+        font-size: 96px;
     }
 
     #header-menu {
@@ -879,12 +866,16 @@ p {
     }
 
     #header {
+        margin: auto;
         text-align: center;
+        width: 100%;
     }
 
     #logo {
-        margin-left: 13%;
-        width: 30%;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+        width: 50%;
     }
 
     .mobile-flex {
@@ -895,7 +886,7 @@ p {
         margin: auto;
         padding-top: 5%;
         text-align: center;
-        height: 1000px;
+        height: 900px;
         width: 100%;
     }
 
@@ -908,10 +899,8 @@ p {
     }
 
     #hero-sub-text {
-        height: unset;
         margin-left: 10%;
         margin-right: 10%;
-        overflow-y: hidden;
         width: 80%;
     }
 
@@ -924,7 +913,13 @@ p {
     }
 
     #social-media {
-        margin-left: auto;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #social-container {
+        margin: auto;
         width: 100%;
     }
 
@@ -973,9 +968,13 @@ p {
 
     #petition-top {
         bottom: 0;
-        height: 450px;
-        margin-left: 40%;
-        width: 450px;
+        height: 200px;
+        margin-left: 60%;
+        width: 200px;
+    }
+
+    .petition-h3 {
+        font-size: 20px;
     }
 
     .petition-btn {
@@ -992,16 +991,13 @@ p {
         margin-bottom: 100px;
     }
 
-    #petition-text {
-        height: 50%;
-    }
-
     #petition-text > h2 {
         font-size: 46px;
     }
 
     #petition-img {
         border-radius: 50%;
+        border: none;
         height: 600px;
         width: 600px;
     }
@@ -1068,9 +1064,35 @@ p {
     }
 
     #join h1 {
-        font-size: 64px;
+        font-size: 130px;
         margin-left: 2.5%;
         margin-right: 2.5%;
+    }
+
+    #newsletter input,
+    #newsletter button {
+        font-size: 64px;
+        height: 150px;
+        width: 90%;
+    }
+
+    #newsletter button {
+        margin-top: 150px;
+    }
+
+    .subscribe,
+    #header-menu {
+        margin: 0;
+        padding: 0;
+    }
+
+    #header-menu {
+        width: 0px;
+    }
+
+    #close-petition {
+        font-size: 36px;
+        padding-top: 15px;
     }
 
     .midway {
@@ -1118,8 +1140,8 @@ p {
     }
 
     #about-text {
-        margin-left: 10%;
-        margin-right: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
         text-overflow: clip;
         width: 80%;
     }
@@ -1144,6 +1166,52 @@ p {
         transform: unset;
     }
 
+    #paid-for {
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        width: 90%;
+    }
+
+    #paid-for h3 {
+        font-size: 50px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .social-container {
+        height: 200px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 200px;
+    }
+
+    #footer {
+        padding-bottom: 400px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #social-media,
+    #footer,
+    .social-container,
+    .social {
+        margin: auto;
+        text-align: center;
+    }
+
+    #logo {
+        padding: 0;
+        margin: 0;
+        width: 40%;
+    }
+
+    #header {
+        padding: 0;
+        margin: 0;
+    }
+
     h1 {
         font-size: 150px;
     }
@@ -1162,6 +1230,12 @@ p {
 
     h5, p {
         font-size: 50px;
+    }
+
+    section {
+        height: fit-content;
+        overflow-x: hidden;
+        width: 100vw;
     }
 
 }
